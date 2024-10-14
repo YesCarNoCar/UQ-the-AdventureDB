@@ -1,11 +1,11 @@
 const CACHE_NAME = 'offline-cache-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/app.js',
-    '/about.html',
-    '/contact.html'
+    '/UQ-the-AdventureDB/',
+    '/UQ-the-AdventureDB/index.html',
+    '/UQ-the-AdventureDB/styles.css',
+    '/UQ-the-AdventureDB/app.js',
+    '/UQ-the-AdventureDB/about.html',
+    '/UQ-the-AdventureDB/contact.html'
 ];
 
 self.addEventListener('install', event => {
